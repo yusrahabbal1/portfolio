@@ -1,1 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  text-align: center;
+}
+/* Sections are styled with light blue background and white font*/
+.section{
+  text-align: center;
+  color: #fcfafa;
+  border: 2px solid #fcfafa;
+  padding: 10px;
+  background-color: #64c4ed;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007acc;
+}
+
+/* Hypertext styling */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* This property centers an image */
+  .image-container {
+    padding-top: 20px;
+    text-align: center; 
+  }
+/* Sets a maximum image width */
+  .centered-image {
+    max-width: 100%;
+    display: inline-block; 
+  }
+/* Gradient HR from electrical blue to yellow */
+  .gradient-hr {
+      border: none;
+      height: 4px; 
+      background: linear-gradient(to right, #7DF9FF, #FFEA00); 
 
