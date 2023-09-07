@@ -12,6 +12,7 @@ h1{
   border: 2px solid #fcfafa;
   padding: 10px;
   background-color: #64c4ed;
+  font-size: 36px;
 }
 
 body, h1, h2, h3, p, ul, li {
@@ -33,9 +34,6 @@ header {
     padding: 20px;
 }
 
-h1 {
-    font-size: 36px;
-}
 
 main {
     max-width: 800px;
@@ -52,6 +50,14 @@ h2 {
     color: #007acc;
 }
 
+h3{
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+
+}
 /* Hypertext styling */
 a {
     color: #007acc;
